@@ -1,0 +1,48 @@
+.main {
+  background: #edecea;
+  // display: flex;
+  // justify-content: center;
+}
+
+.mainBg {
+  display: flex;
+  align-items: center;
+  min-height: 650px;
+  background-image: url("../../assets/Images/bg_title.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  // ​​​background-repeat: no-repeat;
+}
+
+.titleText {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 21px;
+  max-width: 670px;
+}
+
+.descriptionsText {
+  line-height: 26px;
+  max-width: 527px;
+  margin-bottom: 32px;
+}
+
+.container {
+  margin-right: 104px;
+}
+
+.signUpBtn {
+  background-color: #f4e041;
+  border-radius: 80px;
+  text-transform: none;
+  border: none;
+  padding: 12px 20px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@media screen and (max-width: 1390px) {
+  .mainBg {
+    background-position: bottom;
+  }
+}

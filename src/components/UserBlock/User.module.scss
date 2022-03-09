@@ -1,0 +1,49 @@
+.main {
+  width: 370px;
+  height: 313px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.padding {
+  padding: 36px 30px 28px 30px;
+}
+
+.blockImage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.name {
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+
+.job {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 4px;
+}
+
+.email {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 4px;
+}
+
+.phone {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
